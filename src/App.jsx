@@ -8,7 +8,7 @@ function App() {
 
   const fetchQuote = async () => {
     try {
-      const response = await fetch("quotes/random");
+    const response = await fetch("https://54c8dfcb-ed25-4c7d-9f75-fcfca328811c-00-272h8st32jy5s.riker.replit.dev/random");
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
